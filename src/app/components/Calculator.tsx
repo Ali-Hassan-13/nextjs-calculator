@@ -1,10 +1,10 @@
 "use client";
 import { useEffect, useState } from "react";
 
-const btn =
-  "h-14 rounded-xl bg-zinc-800 text-zinc-100 text-lg font-medium shadow-inner active:scale-95 transition";
-const op =
-  "bg-cyan-400 text-cyan-950 font-semibold";
+// const btn =
+//   "h-14 rounded-xl bg-zinc-800 text-zinc-100 text-lg font-medium shadow-inner active:scale-95 transition";
+// const op =
+//   "bg-cyan-400 text-cyan-950 font-semibold";
 
 export default function Calculator() {
   const [expr, setExpr] = useState<string>("");
